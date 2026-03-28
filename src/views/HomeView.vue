@@ -282,7 +282,11 @@ function startTest(mode: TestMode) {
 
 @media (max-width: 480px) {
   .home {
-    padding: 28px 16px;
+    padding: 36px 16px;
+  }
+
+  .hero {
+    margin-top: 0;
   }
 
   .title {
