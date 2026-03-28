@@ -1,0 +1,22 @@
+/* 星夜紫梦主题 - purple.css - 紫色神秘风格 */
+[data-theme='purple'] {
+  --color-primary: #9b6dff;
+  --color-primary-light: #bfa0ff;
+  --color-primary-dark: #7340e0;
+  --color-primary-bg: rgba(155, 109, 255, 0.07);
+  --color-bg: #f5f2fb;
+  --color-bg-card: #ffffff;
+  --color-text: #2e2642;
+  --color-text-secondary: #8878a0;
+  --color-border: #e8e0f4;
+  --color-success: #6dd5a0;
+  --color-danger: #ef6b6b;
+  --color-accent: #f2b75a;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 2px 10px rgba(60, 35, 90, 0.06), 0 0 1px rgba(60, 35, 90, 0.08);
+  --shadow-lg: 0 14px 36px rgba(60, 35, 90, 0.10), 0 2px 8px rgba(60, 35, 90, 0.04);
+  --shadow-focus: 0 0 0 3px rgba(155, 109, 255, 0.18);
+  --gradient-btn: linear-gradient(135deg, #9b6dff, #7340e0);
+  --gradient-btn-shadow: rgba(155, 109, 255, 0.3);
+}

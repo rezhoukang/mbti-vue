@@ -1,0 +1,25 @@
+/* 薄荷森林主题 - mint.css - 绿色清新风格（默认主题） */
+:root,
+[data-theme='mint'] {
+  --color-primary: #4fc5a0;
+  --color-primary-light: #7dddb8;
+  --color-primary-dark: #2d9e7b;
+  --color-primary-bg: rgba(79, 197, 160, 0.07);
+  --color-bg: #f0f7f4;
+  --color-bg-card: #ffffff;
+  --color-text: #2a3d35;
+  --color-text-secondary: #6e9585;
+  --color-border: #d8ede4;
+  --color-success: #4fc5a0;
+  --color-danger: #e86e6e;
+  --color-accent: #f0b75f;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 2px 10px rgba(30, 60, 45, 0.05), 0 0 1px rgba(30, 60, 45, 0.08);
+  --shadow-lg: 0 14px 36px rgba(30, 60, 45, 0.09), 0 2px 8px rgba(30, 60, 45, 0.04);
+  --shadow-focus: 0 0 0 3px rgba(79, 197, 160, 0.18);
+  --max-width: 1200px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --gradient-btn: linear-gradient(135deg, #4fc5a0, #2d9e7b);
+  --gradient-btn-shadow: rgba(79, 197, 160, 0.3);
+}
