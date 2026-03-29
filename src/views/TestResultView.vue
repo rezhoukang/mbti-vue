@@ -150,22 +150,24 @@ function getImageUrl(type: string): string {
         <section>
           <h2 id="jungian">荣格功能偏好</h2>
           <table class="func-table">
-            <tr>
-              <td>主导功能</td>
-              <td>{{ personality.jungianFunctionalPreference.dominant }}</td>
-            </tr>
-            <tr>
-              <td>辅助功能</td>
-              <td>{{ personality.jungianFunctionalPreference.auxiliary }}</td>
-            </tr>
-            <tr>
-              <td>第三功能</td>
-              <td>{{ personality.jungianFunctionalPreference.tertiary }}</td>
-            </tr>
-            <tr>
-              <td>劣势功能</td>
-              <td>{{ personality.jungianFunctionalPreference.inferior }}</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>主导功能</td>
+                <td>{{ personality.jungianFunctionalPreference.dominant }}</td>
+              </tr>
+              <tr>
+                <td>辅助功能</td>
+                <td>{{ personality.jungianFunctionalPreference.auxiliary }}</td>
+              </tr>
+              <tr>
+                <td>第三功能</td>
+                <td>{{ personality.jungianFunctionalPreference.tertiary }}</td>
+              </tr>
+              <tr>
+                <td>劣势功能</td>
+                <td>{{ personality.jungianFunctionalPreference.inferior }}</td>
+              </tr>
+            </tbody>
           </table>
         </section>
 
